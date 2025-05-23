@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+spacy
+spacy-transformers
+presidio-analyzer
+presidio-anonymizer
+PyMuPDF
+torch
