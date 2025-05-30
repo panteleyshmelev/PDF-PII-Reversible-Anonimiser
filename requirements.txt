@@ -7,3 +7,4 @@ presidio-analyzer
 presidio-anonymizer
 PyMuPDF
 torch
+python-docx

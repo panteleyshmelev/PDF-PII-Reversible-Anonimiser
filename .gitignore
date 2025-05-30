@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Data files (ignore contents, not necessarily the folders themselves if empty)
+# If you want to keep the directory structure but ignore files within:
+data/uploads/*
+data/masked_pdfs/*
+data/unmasked_pdfs/*
+data/masked_txts/*
+data/unmasked_txts/*
+# data/masking_maps.json # Decide if you want to version this. For development, maybe. For production, usually not. Let's ignore it for now for simplicity.
+data/masking_maps.json 
+
+# Specific generated files from your log (you can remove these lines if the above catch them)
+# data/masked_pdfs/masked_*.pdf # This is covered by data/masked_pdfs/*
+# data/unmasked_pdfs/unmasked_*.pdf # Covered by data/unmasked_pdfs/*
+
+# Old directories (if you plan to delete them from your filesystem and Git)
+# If you want to keep them locally but not in Git, add them here too.
+# For now, let's assume you'll handle these separately if needed.
+# data/masked_txts - OLD/
+# data/unmasked_txts - OLD/
+# data/uploads - OLD/
+
+# macOS
+.DS_Store
